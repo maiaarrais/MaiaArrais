@@ -207,7 +207,7 @@ const projects = [
       {
         title: "Problem Definition",
         body: "This project explored the design of a simple booking platform for Pilates classes, focused on making scheduling sessions quick and intuitive for both clients and instructors while being visually engaging.",
-        img: true
+        img: "static/images/booking1.png"
       },
       {
         title: "User Persona — Owner",
@@ -228,12 +228,12 @@ const projects = [
       {
         title: "Process",
         body: "The project started with mapping the core user flow: discovering a class, checking availability, and completing a booking. I designed the interface structure in Figma before translating it into a working webpage. Special attention was given to the clarity of the schedule layout and booking interactions, ensuring that users could understand availability at a glance and move through the booking process smoothly.",
-        img: true
+        img: "static/images/booking2.png"
       },
       {
         title: "Outcome",
         body: "The result was a functional web prototype that demonstrates how a small service-based business could manage class reservations through a clear and visually calm interface. The project helped explore how UX design and simple web development can streamline everyday service interactions.",
-        img: true
+        img: "static/images/booking3.png"
       }
     ]
   },
@@ -243,32 +243,32 @@ const projects = [
     subtitle: "Product & Brand Design",
     year: "2024",
     tags: ["Brand Design", "Packaging", "Marketing"],
-    desc: "A branded product box designed as a marketing artifact — balancing brand storytelling, visual impact, and unboxing experience.",
+    desc: "This is a food rescue initiative designed for Concordia students. The idea was to create a weekly mystery box of rescued groceries and baked goods, offered at a reduced price to make fresh food more accessible while preventing waste.",
     eyebrow: "Design Project",
     role: "Brand & Product Designer",
     duration: "—",
-    tools: "Adobe Illustrator, Photoshop",
+    tools: "Adobe Illustrator, html/CSS, JavaScript",
     cover: "static/images/mysteryBox2.png",
     steps: [
       {
         title: "Brief",
-        body: "Design a box recipients would photograph, share, and remember. The box itself needed to tell a brand story before it was even opened.",
+        body: "Rather than presenting the service as a traditional grocery alternative, the concept uses the “mystery box” model to introduce curiosity and anticipation, transforming the act of buying discounted food into a more engaging experience.",
         img: "static/images/mysteryBox2.png",
       },
       {
-        title: "Unboxing as UX",
-        body: "Treated unboxing as a user journey: exterior (first impression), opening (reveal), contents (hierarchy), insert card (final touch). Each moment intentional.",
-        img: true
+        title: "User Experience",
+        body: "The platform was designed to make the process as simple as possible for students. The experience focuses on three steps: discovering the box, reserving it quickly online, and picking it up at a local location such as People’s Potato. The interface communicates the value of the box, the environmental impact, and the ease of the process within seconds, allowing users to understand the service without navigating complex pages or forms.",
+        // img: true
       },
       {
-        title: "Visual Identity",
-        body: "Bold typographic exterior, soft textured interior — the contrast between outside confidence and inside warmth mirrors the brand personality.",
-        img: true
+        title: "Marketing Initiative",
+        body: "The project also explores how UX design can support marketing goals. The mystery box concept itself becomes part of the strategy: by framing rescued food as a surprise experience, the service shifts the perception from “leftover food” to something exciting and shareable. Clear impact metrics such as food waste prevented and money saved by students, reinforce the value of participating, while encouraging a sense of collective contribution to sustainability.",
+        // img: true
       },
       {
         title: "Outcome",
-        body: "Packaging design is fundamentally UX — guiding someone through an experience, creating anticipation, delight, and a feeling they want to share."
-      }
+        body: "The final concept demonstrates how digital design, user experience, and marketing strategy can work together to support a sustainable service model. By combining affordability, simplicity, and a sense of discovery, the project positions food rescue as both a practical and engaging experience for students."
+      } 
     ]
   }, 
   {
@@ -287,12 +287,12 @@ const projects = [
       {
         title: "Concept",
         body: "This project is the online version of a physical art–science installation built around a 4×4×4 LED matrix. The goal of the piece is to visualize the topological turning points of the brain across different stages of life through evolving light patterns. Because the physical LED cube required complex wiring and multiplexing, I created a 3D web version that simulates the light behaviors digitally. This allowed us to test patterns, communicate the concept of the installation, and visualize how the cube would behave once built.",
-        img: "static/images/LED1.png",
+        // img: "static/images/LED1.png",
       },
       {
         title: "Process",
         body: "The online model recreates the LED cube as a 3D structure, where each point represents one LED within the matrix. Using Three.js, I programmed light patterns that correspond to different epochs of brain development, translating scientific ideas about neural change into visual sequences of illumination.",
-        img: true
+        // img: true
       },
       {
         title: "Outcome",
