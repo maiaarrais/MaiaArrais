@@ -136,7 +136,7 @@ const projects = [
       {
         title: "Problem Space",
         body: "Public schools in the DR lacked engaging digital tools. PocketSchool began as an exploration of how digital tools could support early math education. The idea was inspired by looking at the Dominican Republic’s first-grade math curriculum and imagining how those lessons could be translated into a simple, gamified learning experience for children. The goal was to design something that could act both as a classroom aid for teachers and a practice companion for students, making math feel more playful and less intimidating.",
-        img: true
+      //img
       },
       {
         title: "User Persona",
@@ -149,7 +149,7 @@ const projects = [
       {
         title: "Process & Iterations",
         body: "The project went through several iterations. It first started as a Scratch prototype, where the focus was experimenting with how math questions could become small interactive challenges. From there, the project evolved into a coded web version, where I redesigned the interface and began building the interactions directly using HTML, CSS, and JavaScript. A later iteration refined the layout and navigation to make the experience clearer and easier for young users to follow.",
-        img: true
+        //img
       },
       {
         title: "Outcome",
@@ -172,22 +172,22 @@ const projects = [
     steps: [
       {
         title: "Concept",
-        body: "How do you build something that feels alive and tactile? The mushroom world became a space to experiment with form, color, light, and environmental storytelling.",
-        img: true
+        body: "How do you build something that feels alive and tactile? Mushroomy Character World is a concept project exploring how a single character could exist across three distinct environments. Each world reimagines the same mushroom-inspired character in a different atmosphere, showing how changes in environment, color, and lighting can shape the tone of a story..",
+        // img: true
       },
       {
         title: "Character Design",
-        body: "Multiple sketched iterations exploring silhouette, personality, and how the character would relate to its environment — landing on curious and gentle, with exaggerated proportions.",
-        img: true
+        body: "I designed and modeled the mushroom character first, using soft, rounded forms and playful proportions. From there, I developed three separate environments around the character, each with its own visual identity.",
+        // img: true
       },
       {
         title: "Environment Building",
         body: "Built in layers: terrain, flora, lighting atmosphere, and character. Scale, texture, and palette chosen to create a coherent, immersive world.",
-        img: true
+        // img: true
       },
       {
-        title: "Learnings",
-        body: "Deepened my understanding of spatial hierarchy and depth — principles that directly inform how I think about visual focus in 2D UX work."
+        title: "Outcome",
+        body: "The final project presents three variations of the character’s world, showing how environment design can shift the feeling of a space while maintaining a cohesive visual language. It was an exploration of concept design, character presence, and environmental storytelling in 3D."
       }
     ]
   },
@@ -201,12 +201,12 @@ const projects = [
     eyebrow: "Design Project",
     role: "UX/UI Designer",
     duration: "—",
-    tools: "Figma, Miro",
+    tools: "Figma, Html/CSS, JavaScript",
     cover: "static/images/booking.png",
     steps: [
       {
         title: "Problem Definition",
-        body: "Creative studios rely on DMs and spreadsheets to manage bookings. Design a unified platform that reduces admin overhead and gives clients a smooth, professional experience.",
+        body: "This project explored the design of a simple booking platform for Pilates classes, focused on making scheduling sessions quick and intuitive for both clients and instructors while being visually engaging.",
         img: true
       },
       {
@@ -222,17 +222,17 @@ const projects = [
         persona: {
           name: "Aisha, 27",
           role: "Freelance creative, regular renter",
-          quote: "I want to see availability, book, and get a confirmation — without back-and-forth messages."
+          quote: "I want to see availability, book, and get a confirmation without back-and-forth messages."
         }
       },
       {
-        title: "Flow Design",
-        body: "Mapped two parallel journeys — owner and client. Key decision: surface real-time availability upfront to eliminate the most common friction point.",
+        title: "Process",
+        body: "The project started with mapping the core user flow: discovering a class, checking availability, and completing a booking. I designed the interface structure in Figma before translating it into a working webpage. Special attention was given to the clarity of the schedule layout and booking interactions, ensuring that users could understand availability at a glance and move through the booking process smoothly.",
         img: true
       },
       {
-        title: "Design System",
-        body: "Minimal calendar UI, clear status indicators, and a per-booking message thread. Designed for desktop (management) and mobile (client booking).",
+        title: "Outcome",
+        body: "The result was a functional web prototype that demonstrates how a small service-based business could manage class reservations through a clear and visually calm interface. The project helped explore how UX design and simple web development can streamline everyday service interactions.",
         img: true
       }
     ]
