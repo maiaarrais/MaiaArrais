@@ -270,6 +270,35 @@ const projects = [
         body: "Packaging design is fundamentally UX — guiding someone through an experience, creating anticipation, delight, and a feeling they want to share."
       }
     ]
+  }, 
+  {
+    index: "08",
+    title: "3D LED Box",
+    subtitle: "Online Version of Physical Design",
+    year: "2026",
+    tags: ["LED Multiplexing", "3D", "Physical Computing"],
+    desc: "A 3D LED Box that shouws the topological turning points of the brain through a light display of a 4x4x4 LED matrix. This is the online version of a physical design project.",
+    eyebrow: "Design Project",
+    role: "Programmer & Designer",
+    duration: "—",
+    tools: "Raspberry Pi, TinkerCad, Threejs",
+    cover: "static/images/LED.png",
+    steps: [
+      {
+        title: "Concept",
+        body: "This project is the online version of a physical art–science installation built around a 4×4×4 LED matrix. The goal of the piece is to visualize the topological turning points of the brain across different stages of life through evolving light patterns. Because the physical LED cube required complex wiring and multiplexing, I created a 3D web version that simulates the light behaviors digitally. This allowed us to test patterns, communicate the concept of the installation, and visualize how the cube would behave once built.",
+        img: "static/images/LED1.png",
+      },
+      {
+        title: "Process",
+        body: "The online model recreates the LED cube as a 3D structure, where each point represents one LED within the matrix. Using Three.js, I programmed light patterns that correspond to different epochs of brain development, translating scientific ideas about neural change into visual sequences of illumination.",
+        img: true
+      },
+      {
+        title: "Outcome",
+        body: "The result is a 3D interactive visualization that mirrors the physical LED box and helps communicate the project’s intended behavior. It bridges physical computing and digital simulation, allowing the concept to be experienced online while supporting the development of the real installation."
+      }
+    ]
   }
 ];
 
