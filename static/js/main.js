@@ -6,7 +6,7 @@ const projects = [
     subtitle: "Game UX/UI · Coder",
     year: "Nov 2025",
     tags: ["Game UX", "Interaction Design", "JavaScript"],
-    desc: "A narrative interactive game built in 48 hours at Gamerella, Montréal's inclusive game jam. Sole designer and developer.",
+    desc: "A narrative interactive game built in 48 hours at Gamerella, Montréal's inclusive game jam. Designer and developer.",
     eyebrow: "Gamerella 2025 — 48hr Game Jam",
     role: "UX/UI Designer & Developer",
     duration: "48 hours",
@@ -15,7 +15,7 @@ const projects = [
     steps: [
       {
         title: "The Challenge",
-        body: "At Gamerella — a game jam for underrepresented voices in gaming — our team had 48 hours to build a complete game. I was responsible for all UX/UI design and coding.",
+        body: "Gamerella is a 48-hour game jam in Montréal focused on amplifying underrepresented voices in gaming. Over one weekend, our team had to design and build a complete game from scratch. My role was to design the entire UX/UI and implement the interface in code. With such a short timeframe, every decision had to balance creativity with speed. We didn’t have the luxury of long planning phases so the design process had to happen in real time as the game was being built.",
         img: "static/images/gamerella.png" 
       },
       {
@@ -27,20 +27,20 @@ const projects = [
         }
       },
       {
-        title: "Interaction & Signaling",
-        body: "With no time for tutorials, every UI element had to be self-explanatory. I focused on visual affordance — ensuring interactive elements looked clickable, state changes were obvious, and the player always knew what was possible.",
-        img: true // placeholder for interaction design sketches or early UI mockups
+        title: "Designing for Intuitive Play",
+        body: "Rather than relying on tutorials, I focused on visual signaling so players could learn through interaction. Buttons needed to look clickable and the player always needed to understand what actions were possible. The goal was to reduce friction and let the design guide the player naturally.",
+        img: "static/images/Gamerella1.png"
       },
       {
         title: "Iteration Under Pressure",
-        body: "Rapid playtests with other jam participants revealed players didn't read flavor text — they scanned for action cues. I stripped back copy and amplified visual signals across three interface passes in 12 hours.",
-        img: true
+        body: "Quick playtests with other participants showed that players rarely read narrative text, they scanned the screen for action cues. Based on this, I simplified the copy and strengthened the visual hierarchy. Over about twelve hours, the interface went through several fast iterations to make interactions clearer.",
+        img: "static/images/Gamerella2.png"
       },
       {
         title: "Outcome",
-        body: "The game was completed and presented at Gamerella. The process taught me more about signaling, affordance, and friction than any classroom exercise.",
-        img: true
+        body: "By the end of the jam we had a fully playable game presented at Gamerella. The experience reinforced how important observation and iteration are in UX. Seeing how players actually behave often reveals more than initial design assumptions.",
       }
+
     ]
   },
   {
@@ -58,8 +58,8 @@ const projects = [
     steps: [
       {
         title: "Research & Discovery",
-        body: "User interviews and competitive analysis of existing fitness apps. Key pain points: overwhelming onboarding, no progress feedback, poor customization flows.",
-        img: "static/images/project.png"
+        body: "This project was a UX/UI wireframe for a workout app designed around what users actually said they wanted. I created a Google Form to understand people’s habits, frustrations, and preferences when using fitness apps, then used those responses to guide the features and overall flow of the app. I also looked at other workout apps to compare what worked well, what felt unnecessary, and which features I would want to bring into my own design. From there, I built the wireframes in Figma to explore how the app could feel more clear, approachable, and motivating for users.",
+        img: "static/images/GYMGO2.png"
       },
       {
         title: "User Persona",
@@ -70,23 +70,14 @@ const projects = [
         }
       },
       {
-        title: "Information Architecture",
-        body: "Mapped the full user journey and identified three critical drop-off points. Restructured the flow to reduce onboarding from 7 steps to 3 using progressive disclosure.",
-        img: true
+        title: "Focus",
+        body: "A big part of the project was thinking about how the app would work from the user’s point of view: what screens they would need, how they would move through the app, and what information should feel most visible and useful. I focused on creating a structure that felt simple and easy to follow, especially for someone trying to stay consistent with workouts.",
+        img: "static/images/GYMGO1.png"
       },
       {
-        title: "Wireframes → Prototype",
-        body: "Low-fidelity wireframes to test structure, then high-fidelity Figma prototype with interactive transitions and a full component library.",
-        img: true
-      },
-      {
-        title: "Branding",
-        body: "Full visual identity: wordmark, warm-but-energetic color palette (deep navy + coral), and a type system pairing geometric and humanist fonts.",
-        img: true
-      },
-      {
-        title: "Usability Testing",
-        body: "Moderated tests with 5 participants. Iterated on navigation and CTA placement. Final SUS score: 82/100."
+        title: "Outcome",
+        body: "The final result was a UI/UX wireframe that brought together user input, app inspiration, and my own design decisions into one concept. It helped me practice translating research and references into a more intentional user experience.",
+        img: "static/images/project.png"
       }
     ]
   },
@@ -105,8 +96,8 @@ const projects = [
     steps: [
       {
         title: "Concept & Goal",
-        body: "Represent Dominican culture online in a way that felt alive — not a Wikipedia article, but an experience. The goal: make someone who's never heard merengue feel its rhythm.",
-        img: true
+        body: "This project was an interactive website designed to capture the essence of the Dominican Republic, my home country. Rather than presenting information in a traditional way, the goal was to create a small digital experience that lets visitors explore the culture through choices and visuals. The homepage introduces the country through a collage of images that highlight landscapes, daily life, and cultural moments.",
+        img: "static/images/RD1.png"
       },
       {
         title: "User Persona",
@@ -117,18 +108,14 @@ const projects = [
         }
       },
       {
-        title: "Content Architecture",
-        body: "Thematic sections — Music, Food, Landmarks, Traditions — each with its own visual mood, using color and typography to shift atmosphere like moving through different rooms.",
-        img: true
-      },
-      {
-        title: "Interaction Design",
-        body: "Interactive audio samples, image galleries with custom transitions, and scroll-triggered animations. Every interaction designed to feel like discovery, not navigation.",
-        img: true
+        title: "Experience Design",
+        body: "After entering the site, users begin an interactive journey. They first choose a character inspired by well-known Dominican historical or cultural figures. From there, they select a location to explore: the beach, the mountains, or the city. Each environment presents different aspects of Dominican culture including: food, imagery of the landscape, and music associated with that setting. This allows users to move through the site as a small narrative experience rather than a static webpage.",
+        img: "static/images/RD2.png"
       },
       {
         title: "Outcome",
-        body: "A personal reference for emotional design — the idea that a website can have a feeling, not just a function."
+        body: "The final result was a website that combines storytelling, culture, and interaction. The project helped me explore how web design can create a sense of place and identity, using visuals, navigation, and small choices to guide the user through a cultural experience.",
+        img: "static/images/RD3.png"
       }
     ]
   },
@@ -136,7 +123,7 @@ const projects = [
     index: "04",
     title: "Learning Experience Platform",
     subtitle: "Product Design & Development",
-    year: "2019 – 2021",
+    year: "2018 – 2021",
     tags: ["Product Design", "Gamification", "Javascript"],
     desc: "An interactive educational platform for Dominican public schools — gamification drove a 35% increase in student engagement.",
     eyebrow: "Client Project — Santo Domingo, DR",
@@ -148,30 +135,25 @@ const projects = [
     steps: [
       {
         title: "Problem Space",
-        body: "Public schools in the DR lacked engaging digital tools. Design a platform aligned with the national curriculum that would hold students' attention — even for those with limited digital literacy.",
+        body: "Public schools in the DR lacked engaging digital tools. PocketSchool began as an exploration of how digital tools could support early math education. The idea was inspired by looking at the Dominican Republic’s first-grade math curriculum and imagining how those lessons could be translated into a simple, gamified learning experience for children. The goal was to design something that could act both as a classroom aid for teachers and a practice companion for students, making math feel more playful and less intimidating.",
         img: true
       },
       {
         title: "User Persona",
         persona: {
-          name: "Carlos, 13",
+          name: "Carlos, 9",
           role: "Public school student, low prior tech exposure",
           quote: "School stuff on a computer always feels the same as a textbook. I'd rather be playing."
         }
       },
       {
-        title: "Gamification Strategy",
-        body: "XP points, streak systems, badges, and personal progress charts — woven into the content flow, not bolted on top. Behavioral design principles drove every mechanic.",
-        img: true
-      },
-      {
-        title: "Iterative Testing",
-        body: "In-school trials revealed leaderboards caused anxiety for lower performers. Replaced public rankings with personal progress charts — same motivation, no shame.",
+        title: "Process & Iterations",
+        body: "The project went through several iterations. It first started as a Scratch prototype, where the focus was experimenting with how math questions could become small interactive challenges. From there, the project evolved into a coded web version, where I redesigned the interface and began building the interactions directly using HTML, CSS, and JavaScript. A later iteration refined the layout and navigation to make the experience clearer and easier for young users to follow.",
         img: true
       },
       {
         title: "Outcome",
-        body: "Deployed to pilot schools. Engagement up 35%. Taught me the full product lifecycle — research through real-world deployment."
+        body: "PocketSchool became my first coding project, and it marked the moment I began connecting design ideas with real implementation. Through its different iterations, the project helped me understand how educational concepts, interaction design, and simple game mechanics can come together to support learning."
       }
     ]
   },
