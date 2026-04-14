@@ -58,28 +58,100 @@
  
 <section id="about">
   <p class="section-label">About</p>
-  <div class="about-grid">
-    <div class="about-text">
-      <p>I'm Maia, a designer and developer based in Montréal. I'm completing my BFA in Computation Arts at Concordia, concentrating in UX/UI Design and Web Development.</p>
-      <p>I care about the details: the moment a user hesitates, the affordance they miss, the flow that could be three steps instead of five. Good design is invisible: you only notice it when it's gone.</p>
-      <p>Outside of screens, I've organized events for 500+ people, led student communities, and like to build things from scratch. I bring that same systems thinking to every design challenge.</p>
+  <div class="about-docs">
+    <div class="about-actions" role="tablist" aria-label="About documents">
+      <button class="about-action is-active" type="button" role="tab" aria-selected="true" aria-controls="aboutBiography" id="aboutTabBiography" data-about-tab="biography">Biography</button>
+      <button class="about-action" type="button" role="tab" aria-selected="false" aria-controls="aboutStatement" id="aboutTabStatement" data-about-tab="statement">Artist Statement</button>
+      <button class="about-action" type="button" role="tab" aria-selected="false" aria-controls="aboutResume" id="aboutTabResume" data-about-tab="resume">Resume</button>
     </div>
-    <div class="about-details">
-      <div class="detail-row">
-        <div class="detail-label">Currently</div>
-        <div class="detail-value">BFA Computation Arts, Concordia University</div>
+    <div class="about-panels">
+      <div class="about-panel is-active" id="aboutBiography" role="tabpanel" aria-labelledby="aboutTabBiography" data-about-panel="biography">
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Maia Arrais is a Montreal-based artist and designer currently pursuing a BFA in Computation Arts at Concordia University. Her work sits between UX/UI design, interactive media, and physical materiality, with a focus on turning complex ideas into experiences people can actually feel and understand. She’s especially interested in how interaction can help make things clearer and more human, creating spaces where people can engage, reflect, and connect.</p>
+            <p>Her recent projects include a 3D LED cube that visualizes neural patterns, as well as interactive games like You As I Made, created during Gamerella 2025—a personality quiz made visual—and a character-driven mushroom game exploring narrative and play. Across her work, Maia combines design, coding, and hands-on experimentation to break down complex systems and rebuild them into something more approachable. She is drawn to the process of translation, like taking ideas that feel distant or difficult to grasp and turning them into experiences that invite curiosity and participation.</p>
+            <p>At the core of her practice is a simple intention: to make people feel something, to help them understand something new, and to create small moments of connection through the work. She approaches her work with a sense of care and attention, aiming to create experiences that feel both thoughtful and accessible, where complexity becomes something shared rather than overwhelming.</p>
+          </div>
+          <div class="about-details">
+            <div class="detail-row">
+              <div class="detail-label">Currently</div>
+              <div class="detail-value">BFA Computation Arts, Concordia University</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Location</div>
+              <div class="detail-value">Montréal, Québec</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Tools</div>
+              <div class="detail-value">Figma, Adobe XD, Illustrator, Photoshop, Threejs, Unreal Engine</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Contact</div>
+              <div class="detail-value">maiacarrais@gmail.com</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="detail-row">
-        <div class="detail-label">Location</div>
-        <div class="detail-value">Montréal, Québec</div>
+
+      <div class="about-panel" id="aboutStatement" role="tabpanel" aria-labelledby="aboutTabStatement" data-about-panel="statement" hidden>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I explore how invisible systems shape human behavior and interaction. How things we don’t see still guide the way we think, act, and connect. But at the core of my work is something more human: connection. I care about how people feel, how they understand, and how they relate to one another.</p>
+            <p>I’ve always been drawn to making things clearer. I enjoy sitting with complexity, breaking it apart, and slowly putting it back together until it forms something others can see. Like a puzzle that at first feels overwhelming, but eventually reveals a bigger picture. My work lives in that process of translation, often through interactive and visual forms, where what is hidden or difficult to grasp becomes visible.</p>
+            <p>Imperfection is the window for creation. There’s no such thing as perfect work because we are imperfect people. I’ve learned to let go of that idea and instead focus on creating with intention, care, and warmth. I show up in my work the same way I do in life: through attention, presence, and a desire to make people feel seen and understood.</p>
+            <p>Ultimately, my work is an invitation to pause, to question, and to notice the systems we move through, and the human connections that exist within them.</p>
+          </div>
+          <div class="about-details">
+            <div class="detail-row">
+              <div class="detail-label">Focus</div>
+              <div class="detail-value">UX/UI design, interaction design, creative development</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Themes</div>
+              <div class="detail-value">Intuition, access, play, clarity, human-centered systems</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Approach</div>
+              <div class="detail-value">Design system based, visually intentional, built through iteration</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="detail-row">
-        <div class="detail-label">Tools</div>
-        <div class="detail-value">Figma, Adobe XD, Illustrator, Photoshop, Miro</div>
-      </div>
-      <div class="detail-row">
-        <div class="detail-label">Contact</div>
-        <div class="detail-value">maiacarrais@gmail.com</div>
+
+      <div class="about-panel" id="aboutResume" role="tabpanel" aria-labelledby="aboutTabResume" data-about-panel="resume" hidden>
+        <div class="about-grid">
+          <div class="about-text">
+            <p><strong>Education</strong><br/>BFA in Computation Arts at Concordia University and a minor in Marketing, with a concentration in UX/UI Design and Web Development.</p>
+            <p><strong>Practice</strong><br/>Designing and building interactive products, websites, and visual experiences with a focus on usability, storytelling, and systems thinking.</p>
+            <p><strong>Skills</strong><br/><strong>UX/UI: </strong>Wireframing · Prototyping · User Research · Usability Testing · Interaction Design · Onboarding Flows · Design Thinking · Accessibility (WCAG)</p>
+            <p><strong>TOOLS: </strong> Figma · Adobe XD · Illustrator · Photoshop · Unity · Unreal Engine · Blender</p>
+            <p><strong>DEV: </strong> HTML/CSS · JavaScript · Python · C++ · Flask</p>
+            <p><strong>SOFT SKILLS: </strong> Strong communication· Human-centered thinking & empathy· Analytical & problem-solving· Collaborative· Iterative mindset</p>
+            <p><strong>LANGUAGES: </strong> English (fluent) · Spanish (native) · Portuguese (fluent)</p>
+            <div class="about-downloads">
+              <a class="about-download" href="static/files/maia-arrais-cv.pdf" download="Maia-Arrais-CV.pdf">Download CV PDF</a>
+              <p class="about-download-note">Download the CV and contact me!</p>
+            </div>
+          </div>
+          <div class="about-details">
+            <div class="detail-row">
+              <div class="detail-label">Seeking</div>
+              <div class="detail-value">UX internship for May 2026</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Skills</div>
+              <div class="detail-value">UX research, wireframing, prototyping, front-end development</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Software</div>
+              <div class="detail-value">Figma, Adobe XD, Illustrator, Photoshop, unreal engine, JavaScript, HTML/CSS</div>
+            </div>
+            <div class="detail-row">
+              <div class="detail-label">Email</div>
+              <div class="detail-value">maiacarrais@gmail.com</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -419,6 +419,28 @@ projects.forEach((p, i) => {
   grid.appendChild(card);
 });
 
+/* ABOUT TABS --------------------------*/
+const aboutTabs = document.querySelectorAll('[data-about-tab]');
+const aboutPanels = document.querySelectorAll('[data-about-panel]');
+
+aboutTabs.forEach((tab) => {
+  tab.addEventListener('click', () => {
+    const target = tab.dataset.aboutTab;
+
+    aboutTabs.forEach((item) => {
+      const isActive = item === tab;
+      item.classList.toggle('is-active', isActive);
+      item.setAttribute('aria-selected', String(isActive));
+    });
+
+    aboutPanels.forEach((panel) => {
+      const isActive = panel.dataset.aboutPanel === target;
+      panel.classList.toggle('is-active', isActive);
+      panel.hidden = !isActive;
+    });
+  });
+});
+
 /* MODAL ---------------------------*/
 const overlay    = document.getElementById('modalOverlay');
 const modalCover = document.getElementById('modalCover');

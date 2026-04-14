@@ -788,6 +788,56 @@ section { padding: 5rem 3rem; }
 ══════════════════════════════════════ */
 #about { border-top: 1px solid var(--border); }
 
+.about-docs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.about-action {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--mid);
+  font: inherit;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.8rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.about-action:hover {
+  background: var(--card);
+  color: var(--ink);
+  transform: translateY(-1px);
+}
+
+.about-action.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+
+.about-panels {
+  position: relative;
+}
+
+.about-panel {
+  animation: fadeAboutPanel 0.3s ease;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -801,6 +851,43 @@ section { padding: 5rem 3rem; }
 }
 
 .about-text p + p { margin-top: 1rem; }
+
+.about-downloads {
+  margin-top: 1.75rem;
+}
+
+.about-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--bg);
+  text-decoration: none;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-download:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+  box-shadow: 0 10px 24px rgba(200, 85, 42, 0.18);
+}
+
+.about-download-note {
+  margin-top: 0.85rem;
+  font-size: 0.82rem;
+  color: var(--mid);
+}
+
+.about-download-note code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+}
 
 .about-details {
   display: flex;
@@ -817,11 +904,22 @@ section { padding: 5rem 3rem; }
   font-size: 0.65rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--mid);
+  color: var(--accent);
   margin-bottom: 0.25rem;
 }
 
 .detail-value { font-size: 0.85rem; }
+
+@keyframes fadeAboutPanel {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* ══════════════════════════════════════
    FOOTER
@@ -862,6 +960,11 @@ footer {
   .hero-left { width: 100vw; }
   #home.panel-open .hero-toggle { left: calc(100vw - 28px); }
   nav, section, .hero-left-inner { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .about-actions { gap: 0.6rem; }
+  .about-action {
+    width: 100%;
+    justify-content: center;
+  }
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .modal-inner { padding: 2rem 1.5rem; }
 }
