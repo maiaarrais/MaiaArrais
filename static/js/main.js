@@ -296,7 +296,7 @@ const projects = [
     role: "Programmer & Designer",
     duration: "3 weeks",
     tools: "Raspberry Pi, TinkerCad, Threejs",
-    cover: "static/images/LED.png",
+    cover: "static/images/3dLed.png",
     coverFit: "cover",
     link: "https://maiaarrais.github.io/3D_LED_Box/", 
     steps: [
