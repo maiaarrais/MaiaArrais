@@ -56,7 +56,7 @@ const projects = [
     duration: "~ 3 months",
     tools: "Figma, Adobe Illustrator",
     cover: "static/images/gymgo.png",
-    coverFit: "cover",
+    coverFit:"fill",
     link: "https://www.figma.com/proto/w4Xizrbu6zPOFF7baRcEgL/Gymgo-app-final-project-CART-310?node-id=1-126&t=fMzDiMjtUiS7o3aw-1",
     steps: [
       {
@@ -96,7 +96,7 @@ const projects = [
     duration: "2 months",
     tools: "HTML, CSS, JavaScript",
     cover: "static/images/dr.png",
-    coverFit: "cover",
+    coverFit: "fill",
     link: "https://hybrid.concordia.ca/m_arrais/final-project-211/homepage.html",
     steps: [
       {
@@ -137,7 +137,7 @@ const projects = [
     tools: "Javascript, HTML/CSS, Figma",
     emoji: "📚",
     cover: "static/images/pocketschool.png",
-    coverFit: "cover",
+    coverFit: "fill",
     link: "https://maiaarrais.github.io/New_pocketshcool/", 
     steps: [
       {
