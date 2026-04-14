@@ -14,11 +14,12 @@ const projects = [
     cover: "static/images/gamerella.png",
     coverFit: "cover", 
     link: "https://sdr2.itch.io/you-as-i-made", 
+
     steps: [
       {
         title: "The Challenge",
         body: "Gamerella is a 48-hour game jam in Montréal focused on amplifying underrepresented voices in gaming. Over one weekend, our team had to design and build a complete game from scratch. My role was to design the entire UX/UI and implement the interface in code. With such a short timeframe, every decision had to balance creativity with speed. We didn't have the luxury of long planning phases so the design process had to happen in real time as the game was being built.",
-        img: "static/images/gamerella.png" 
+        img: "static/images/gamerella.png"
       },
       {
         title: "User Persona",
