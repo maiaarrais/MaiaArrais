@@ -129,7 +129,7 @@ const projects = [
     index: "04",
     title: "Learning Experience Platform",
     subtitle: "Product Design & Development",
-    year: "2018 – 2021",
+    year: "2018 – work in progress",
     tags: ["Product Design", "Gamification", "Javascript"],
     desc: "An interactive educational platform for Dominican public schools — gamification drove a 35% increase in student engagement.",
     eyebrow: "Client Project — Santo Domingo, DR",
