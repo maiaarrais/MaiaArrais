@@ -329,14 +329,30 @@ heroToggle.addEventListener('click', () => {
 /* CAROUSEL --------------------------*/
 const track = document.getElementById('carouselTrack');
 const dotsEl = document.getElementById('carouselDots');
+const workSection = document.getElementById('work');
 let current = 0, autoTimer;
+
+function scrollToProject(idx) {
+  const targetCard = document.getElementById(`project-card-${idx}`);
+  if (!targetCard) return;
+
+  workSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.setTimeout(() => {
+    targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    targetCard.classList.add('is-highlighted');
+    window.setTimeout(() => targetCard.classList.remove('is-highlighted'), 1600);
+  }, 250);
+}
 
 projects.forEach((p, i) => {
   const slide = document.createElement('div');
   slide.className = 'carousel-slide';
 
-  const visual = document.createElement('div');
+  const visual = document.createElement('button');
   visual.className = 'slide-visual';
+  visual.type = 'button';
+  visual.setAttribute('aria-label', `Jump to ${p.title} in selected work`);
+  visual.addEventListener('click', () => scrollToProject(i));
 
   if (p.cover) {
     const fit = p.coverFit || 'cover';
@@ -390,6 +406,7 @@ const grid = document.getElementById('projectGrid');
 projects.forEach((p, i) => {
   const card = document.createElement('div');
   card.className = 'project-card';
+  card.id = `project-card-${i}`;
 
   const fit = p.coverFit || 'cover';
   const objFit = fit.startsWith('cover') ? 'cover' : fit;
