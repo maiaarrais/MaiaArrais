@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="static/css/styles.css"/>
 </head>
 <body>
-
+ 
 <nav>
   <div class="nav-logo">Maia Arrais</div>
   <div class="nav-links">
@@ -17,38 +17,45 @@
     <a href="mailto:maiacarrais@gmail.com">Contact</a>
   </div>
 </nav>
-
-<section id="home">
-  <!-- Left: intro -->
-  <div class="hero-left">
-    <p class="hero-label fade-up">UX/UI Designer & Developer — Montréal</p>
-    <h1 class="hero-name fade-up delay-1">Designing<br/><em>experiences</em><br/>that feel right.</h1>
-    <p class="hero-sub fade-up delay-2">I'm Maia, a Computation Arts student at Concordia. I work at the intersection of UX, interaction design, and code, building things that are intuitive, meaningful, and human. Seeking a UX internship for May 2026.</p>
-    <div class="hero-tags fade-up delay-3">
-      <span class="tag">UX/UI Design</span><span class="tag">Prototyping</span>
-      <span class="tag">User Research</span><span class="tag">Web Dev</span>
-      <span class="tag">Game UX</span><span class="tag">Figma</span>
+ 
+<section id="home" class="panel-open">
+  <!-- Left: intro panel (collapsible) -->
+  <div class="hero-left" id="heroLeft">
+    <div class="hero-left-inner">
+      <p class="hero-label fade-up">UX/UI Designer &amp; Developer — Montréal</p>
+      <h1 class="hero-name fade-up delay-1">Designing<br/><em>experiences</em><br/>that feel right.</h1>
+      <p class="hero-sub fade-up delay-2">I'm Maia, a Computation Arts student at Concordia. I work at the intersection of UX, interaction design, and code, building things that are intuitive, meaningful, and human. Seeking a UX internship for May 2026.</p>
+      <div class="hero-tags fade-up delay-3">
+        <span class="tag">UX/UI Design</span><span class="tag">Prototyping</span>
+        <span class="tag">User Research</span><span class="tag">Web Dev</span>
+        <span class="tag">Game UX</span><span class="tag">Figma</span>
+      </div>
     </div>
   </div>
-
+ 
+  <!-- Toggle tab -->
+  <button class="hero-toggle" id="heroToggle" aria-label="Toggle info panel">
+    <span class="hero-toggle-arrow" id="heroToggleArrow">&#8249;</span>
+  </button>
+ 
   <!-- Right: carousel -->
   <div class="hero-right">
     <div class="carousel">
       <div class="carousel-track" id="carouselTrack"></div>
       <div class="carousel-controls">
-        <button class="carousel-btn" id="prevBtn">←</button>
+        <button class="carousel-btn" id="prevBtn">&#8592;</button>
         <div class="carousel-dots" id="carouselDots"></div>
-        <button class="carousel-btn" id="nextBtn">→</button>
+        <button class="carousel-btn" id="nextBtn">&#8594;</button>
       </div>
     </div>
   </div>
 </section>
-
+ 
 <section id="work">
   <p class="section-label">Selected Work</p>
   <div class="project-grid" id="projectGrid"></div>
 </section>
-
+ 
 <section id="about">
   <p class="section-label">About</p>
   <div class="about-grid">
@@ -58,28 +65,40 @@
       <p>Outside of screens, I've organized events for 500+ people, led student communities, and like to build things from scratch. I bring that same systems thinking to every design challenge.</p>
     </div>
     <div class="about-details">
-      <div class="detail-row"><div class="detail-label">Currently</div><div class="detail-value">BFA Computation Arts, Concordia University</div></div>
-      <div class="detail-row"><div class="detail-label">Location</div><div class="detail-value">Montréal, Québec</div></div>
-      <div class="detail-row"><div class="detail-label">Tools</div><div class="detail-value">Figma, Adobe XD, Illustrator, Photoshop, Miro</div></div>
-      <div class="detail-row"><div class="detail-label">Contact</div><div class="detail-value">maiacarrais@gmail.com</div></div>
+      <div class="detail-row">
+        <div class="detail-label">Currently</div>
+        <div class="detail-value">BFA Computation Arts, Concordia University</div>
+      </div>
+      <div class="detail-row">
+        <div class="detail-label">Location</div>
+        <div class="detail-value">Montréal, Québec</div>
+      </div>
+      <div class="detail-row">
+        <div class="detail-label">Tools</div>
+        <div class="detail-value">Figma, Adobe XD, Illustrator, Photoshop, Miro</div>
+      </div>
+      <div class="detail-row">
+        <div class="detail-label">Contact</div>
+        <div class="detail-value">maiacarrais@gmail.com</div>
+      </div>
     </div>
   </div>
 </section>
-
+ 
 <footer>
-  <span>© 2025 Maia Arrais</span>
+  <span>&#169; 2025 Maia Arrais</span>
   <span>Montréal, Canada</span>
 </footer>
-
+ 
 <!-- MODAL -->
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal" id="modalEl">
-    <button class="modal-close" id="modalClose">✕</button>
+    <button class="modal-close" id="modalClose">&#10005;</button>
     <div class="modal-cover" id="modalCover"></div>
     <div class="modal-inner" id="modalInner"></div>
   </div>
 </div>
-
+ 
 <script src="static/js/main.js"></script>
 </body>
 </html>

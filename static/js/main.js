@@ -1,4 +1,4 @@
-/* ─── DATA ─── */
+
 const projects = [
   {
     index: "01",
@@ -12,10 +12,12 @@ const projects = [
     duration: "48 hours",
     tools: "JavaScript, Figma",
     cover: "static/images/gamerella.png",
+    coverFit: "cover", 
+    link: "https://sdr2.itch.io/you-as-i-made", 
     steps: [
       {
         title: "The Challenge",
-        body: "Gamerella is a 48-hour game jam in Montréal focused on amplifying underrepresented voices in gaming. Over one weekend, our team had to design and build a complete game from scratch. My role was to design the entire UX/UI and implement the interface in code. With such a short timeframe, every decision had to balance creativity with speed. We didn’t have the luxury of long planning phases so the design process had to happen in real time as the game was being built.",
+        body: "Gamerella is a 48-hour game jam in Montréal focused on amplifying underrepresented voices in gaming. Over one weekend, our team had to design and build a complete game from scratch. My role was to design the entire UX/UI and implement the interface in code. With such a short timeframe, every decision had to balance creativity with speed. We didn't have the luxury of long planning phases so the design process had to happen in real time as the game was being built.",
         img: "static/images/gamerella.png" 
       },
       {
@@ -40,7 +42,6 @@ const projects = [
         title: "Outcome",
         body: "By the end of the jam we had a fully playable game presented at Gamerella. The experience reinforced how important observation and iteration are in UX. Seeing how players actually behave often reveals more than initial design assumptions.",
       }
-
     ]
   },
   {
@@ -52,13 +53,15 @@ const projects = [
     desc: "A fitness app from research to high-fidelity prototype — with full branding, user flows, and usability testing.",
     eyebrow: "Academic Project — Concordia University",
     role: "UX/UI Designer",
-    duration: "3 months",
+    duration: "~ 3 months",
     tools: "Figma, Adobe Illustrator",
     cover: "static/images/gymgo.png",
+    coverFit: "cover",
+    link: "https://www.figma.com/proto/w4Xizrbu6zPOFF7baRcEgL/Gymgo-app-final-project-CART-310?node-id=1-126&t=fMzDiMjtUiS7o3aw-1",
     steps: [
       {
         title: "Research & Discovery",
-        body: "This project was a UX/UI wireframe for a workout app designed around what users actually said they wanted. I created a Google Form to understand people’s habits, frustrations, and preferences when using fitness apps, then used those responses to guide the features and overall flow of the app. I also looked at other workout apps to compare what worked well, what felt unnecessary, and which features I would want to bring into my own design. From there, I built the wireframes in Figma to explore how the app could feel more clear, approachable, and motivating for users.",
+        body: "This project was a UX/UI wireframe for a workout app designed around what users actually said they wanted. I created a Google Form to understand people's habits, frustrations, and preferences when using fitness apps, then used those responses to guide the features and overall flow of the app. I also looked at other workout apps to compare what worked well, what felt unnecessary, and which features I would want to bring into my own design. From there, I built the wireframes in Figma to explore how the app could feel more clear, approachable, and motivating for users.",
         img: "static/images/GYMGO2.png"
       },
       {
@@ -71,7 +74,7 @@ const projects = [
       },
       {
         title: "Focus",
-        body: "A big part of the project was thinking about how the app would work from the user’s point of view: what screens they would need, how they would move through the app, and what information should feel most visible and useful. I focused on creating a structure that felt simple and easy to follow, especially for someone trying to stay consistent with workouts.",
+        body: "A big part of the project was thinking about how the app would work from the user's point of view: what screens they would need, how they would move through the app, and what information should feel most visible and useful. I focused on creating a structure that felt simple and easy to follow, especially for someone trying to stay consistent with workouts.",
         img: "static/images/GYMGO1.png"
       },
       {
@@ -90,9 +93,11 @@ const projects = [
     desc: "An immersive multimedia website celebrating the culture, music, and heritage of the Dominican Republic.",
     eyebrow: "Personal Project",
     role: "Designer & Developer",
-    duration: "1 month",
+    duration: "2 months",
     tools: "HTML, CSS, JavaScript",
     cover: "static/images/dr.png",
+    coverFit: "cover",
+    link: "https://hybrid.concordia.ca/m_arrais/final-project-211/homepage.html",
     steps: [
       {
         title: "Concept & Goal",
@@ -132,10 +137,12 @@ const projects = [
     tools: "Javascript, HTML/CSS, Figma",
     emoji: "📚",
     cover: "static/images/pocketschool.png",
+    coverFit: "cover",
+    link: "https://maiaarrais.github.io/New_pocketshcool/", 
     steps: [
       {
         title: "Problem Space",
-        body: "Public schools in the DR lacked engaging digital tools. PocketSchool began as an exploration of how digital tools could support early math education. The idea was inspired by looking at the Dominican Republic’s first-grade math curriculum and imagining how those lessons could be translated into a simple, gamified learning experience for children. The goal was to design something that could act both as a classroom aid for teachers and a practice companion for students, making math feel more playful and less intimidating.",
+        body: "Public schools in the DR lacked engaging digital tools. PocketSchool began as an exploration of how digital tools could support early math education. The idea was inspired by looking at the Dominican Republic's first-grade math curriculum and imagining how those lessons could be translated into a simple, gamified learning experience for children. The goal was to design something that could act both as a classroom aid for teachers and a practice companion for students, making math feel more playful and less intimidating.",
       //img
       },
       {
@@ -166,9 +173,11 @@ const projects = [
     desc: "A whimsical 3D environment and character — a mushroom world built to explore organic form, light, and spatial storytelling.",
     eyebrow: "Academic / Personal Project",
     role: "3D Artist & World Designer",
-    duration: "Ongoing",
+    duration: "2 months",
     tools: "Blender, Illustrator",
     cover: "static/images/mushroomy.png",
+    coverFit: "cover",
+    link: "https://www.youtube.com/watch?v=6u5idQ_AkDg", 
     steps: [
       {
         title: "Concept",
@@ -187,7 +196,7 @@ const projects = [
       },
       {
         title: "Outcome",
-        body: "The final project presents three variations of the character’s world, showing how environment design can shift the feeling of a space while maintaining a cohesive visual language. It was an exploration of concept design, character presence, and environmental storytelling in 3D."
+        body: "The final project presents three variations of the character's world, showing how environment design can shift the feeling of a space while maintaining a cohesive visual language. It was an exploration of concept design, character presence, and environmental storytelling in 3D."
       }
     ]
   },
@@ -200,9 +209,11 @@ const projects = [
     desc: "A booking platform for creative studios — streamlining scheduling, availability, and client communication.",
     eyebrow: "Design Project",
     role: "UX/UI Designer",
-    duration: "—",
+    duration: "1 month",
     tools: "Figma, Html/CSS, JavaScript",
     cover: "static/images/booking.png",
+    coverFit: "cover",
+    link: "https://github.com/maiaarrais/CART351/tree/main/Projects/project%202", 
     steps: [
       {
         title: "Problem Definition",
@@ -246,23 +257,25 @@ const projects = [
     desc: "This is a food rescue initiative designed for Concordia students. The idea was to create a weekly mystery box of rescued groceries and baked goods, offered at a reduced price to make fresh food more accessible while preventing waste.",
     eyebrow: "Design Project",
     role: "Brand & Product Designer",
-    duration: "—",
+    duration: "1 month",
     tools: "Adobe Illustrator, html/CSS, JavaScript",
     cover: "static/images/mysteryBox2.png",
+    coverFit: "cover",
+    link: "https://maiaarrais.github.io/MysteryBox-MARK305/", 
     steps: [
       {
         title: "Brief",
-        body: "Rather than presenting the service as a traditional grocery alternative, the concept uses the “mystery box” model to introduce curiosity and anticipation, transforming the act of buying discounted food into a more engaging experience.",
+        body: "Rather than presenting the service as a traditional grocery alternative, the concept uses the \"mystery box\" model to introduce curiosity and anticipation, transforming the act of buying discounted food into a more engaging experience.",
         img: "static/images/mysteryBox2.png",
       },
       {
         title: "User Experience",
-        body: "The platform was designed to make the process as simple as possible for students. The experience focuses on three steps: discovering the box, reserving it quickly online, and picking it up at a local location such as People’s Potato. The interface communicates the value of the box, the environmental impact, and the ease of the process within seconds, allowing users to understand the service without navigating complex pages or forms.",
+        body: "The platform was designed to make the process as simple as possible for students. The experience focuses on three steps: discovering the box, reserving it quickly online, and picking it up at a local location such as People's Potato. The interface communicates the value of the box, the environmental impact, and the ease of the process within seconds, allowing users to understand the service without navigating complex pages or forms.",
         // img: true
       },
       {
         title: "Marketing Initiative",
-        body: "The project also explores how UX design can support marketing goals. The mystery box concept itself becomes part of the strategy: by framing rescued food as a surprise experience, the service shifts the perception from “leftover food” to something exciting and shareable. Clear impact metrics such as food waste prevented and money saved by students, reinforce the value of participating, while encouraging a sense of collective contribution to sustainability.",
+        body: "The project also explores how UX design can support marketing goals. The mystery box concept itself becomes part of the strategy: by framing rescued food as a surprise experience, the service shifts the perception from \"leftover food\" to something exciting and shareable. Clear impact metrics such as food waste prevented and money saved by students, reinforce the value of participating, while encouraging a sense of collective contribution to sustainability.",
         // img: true
       },
       {
@@ -277,12 +290,14 @@ const projects = [
     subtitle: "Online Version of Physical Design",
     year: "2026",
     tags: ["LED Multiplexing", "3D", "Physical Computing"],
-    desc: "A 3D LED Box that shouws the topological turning points of the brain through a light display of a 4x4x4 LED matrix. This is the online version of a physical design project.",
+    desc: "A 3D LED Box that shows the topological turning points of the brain through a light display of a 4x4x4 LED matrix. This is the online version of a physical design project.",
     eyebrow: "Design Project",
     role: "Programmer & Designer",
-    duration: "—",
+    duration: "3 weeks",
     tools: "Raspberry Pi, TinkerCad, Threejs",
     cover: "static/images/LED.png",
+    coverFit: "cover",
+    link: "https://maiaarrais.github.io/3D_LED_Box/", 
     steps: [
       {
         title: "Concept",
@@ -296,15 +311,21 @@ const projects = [
       },
       {
         title: "Outcome",
-        body: "The result is a 3D interactive visualization that mirrors the physical LED box and helps communicate the project’s intended behavior. It bridges physical computing and digital simulation, allowing the concept to be experienced online while supporting the development of the real installation."
+        body: "The result is a 3D interactive visualization that mirrors the physical LED box and helps communicate the project's intended behavior. It bridges physical computing and digital simulation, allowing the concept to be experienced online while supporting the development of the real installation."
       }
     ]
   }
 ];
 
-/* ══════════════════════════════════════
-   CAROUSEL
-══════════════════════════════════════ */
+/* PANEL TOGGLE --------------------------*/
+const homeSection = document.getElementById('home');
+const heroToggle  = document.getElementById('heroToggle');
+
+heroToggle.addEventListener('click', () => {
+  homeSection.classList.toggle('panel-open');
+});
+
+/* CAROUSEL --------------------------*/
 const track = document.getElementById('carouselTrack');
 const dotsEl = document.getElementById('carouselDots');
 let current = 0, autoTimer;
@@ -317,7 +338,11 @@ projects.forEach((p, i) => {
   visual.className = 'slide-visual';
 
   if (p.cover) {
-    visual.innerHTML = `<img src="${p.cover}" alt="${p.title}"/>`;
+    const fit = p.coverFit || 'cover';
+    // "cover-top" / "cover-bottom" are shorthand for cover + object-position
+    const objFit = fit.startsWith('cover') ? 'cover' : fit;
+    const objPos = fit === 'cover-top' ? 'top' : fit === 'cover-bottom' ? 'bottom' : 'center';
+    visual.innerHTML = `<img src="${p.cover}" alt="${p.title}" style="object-fit:${objFit};object-position:${objPos};"/>`;
   } else {
     visual.innerHTML = `
       ${p.emoji}
@@ -358,18 +383,24 @@ function resetAuto() {
 }
 resetAuto();
 
-/* ══════════════════════════════════════
-   PROJECT CARDS
-══════════════════════════════════════ */
+/* PROJECT CARDS --------------------------*/
 const grid = document.getElementById('projectGrid');
 
 projects.forEach((p, i) => {
   const card = document.createElement('div');
   card.className = 'project-card';
 
+  const fit = p.coverFit || 'cover';
+  const objFit = fit.startsWith('cover') ? 'cover' : fit;
+  const objPos = fit === 'cover-top' ? 'top' : fit === 'cover-bottom' ? 'bottom' : 'center';
   const thumbInner = p.cover
-    ? `<img src="${p.cover}" alt="${p.title}"/>`
+    ? `<img src="${p.cover}" alt="${p.title}" style="object-fit:${objFit};object-position:${objPos};"/>`
     : p.emoji;
+
+  // Link button shown below card footer if a link exists
+  const linkRow = p.link
+    ? `<a class="card-link" href="${p.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">View Project ↗</a>`
+    : '';
 
   card.innerHTML = `
     <div class="card-thumb">${thumbInner}</div>
@@ -380,16 +411,15 @@ projects.forEach((p, i) => {
     <div class="card-footer">
       <div class="card-tags">${p.tags.map(t => `<span class="card-tag">${t}</span>`).join('')}</div>
       <span class="card-arrow">↗</span>
-    </div>`;
+    </div>
+    ${linkRow}`;
 
   card.addEventListener('click', () => openModal(i));
   grid.appendChild(card);
 });
 
-/* ══════════════════════════════════════
-   MODAL
-══════════════════════════════════════ */
-const overlay = document.getElementById('modalOverlay');
+/* MODAL ---------------------------*/
+const overlay    = document.getElementById('modalOverlay');
 const modalCover = document.getElementById('modalCover');
 const modalInner = document.getElementById('modalInner');
 
@@ -428,7 +458,6 @@ function openModal(idx) {
         </div>`;
     }
 
-    // img: true = placeholder, img: "path" = real image
     const imgBlock = s.img
       ? (typeof s.img === 'string'
           ? `<div class="img-slot"><img src="${s.img}" alt="${s.title}"/></div>`
@@ -446,6 +475,11 @@ function openModal(idx) {
       </div>`;
   }).join('');
 
+  // Link button in modal meta bar
+  const linkBtn = p.link
+    ? `<a class="modal-project-link" href="${p.link}" target="_blank" rel="noopener">View Project ↗</a>`
+    : '';
+
   modalInner.innerHTML = `
     <div class="modal-eyebrow">${p.eyebrow}</div>
     <h2 class="modal-title">${p.title}</h2>
@@ -454,6 +488,7 @@ function openModal(idx) {
       <div class="modal-meta-item"><strong>Duration</strong>${p.duration}</div>
       <div class="modal-meta-item"><strong>Tools</strong>${p.tools}</div>
       <div class="modal-meta-item"><strong>Year</strong>${p.year}</div>
+      ${linkBtn}
     </div>
     <div class="process-steps">${stepsHTML}</div>`;
 
